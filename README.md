@@ -13,6 +13,8 @@ $ git clone https://github.com/dcordero/BetafyXcode.git
 $ cp BetafyXcode/XcodeBeta.icns /Applications/Xcode-beta.app/Contents/Resources/XcodeBeta.icns
 ```
 
+![](Preview.png)
+
 # Aliases
 
 Since using the command `open` has a random behavior when there are multiple versions of Xcode installed in the system, you could use these two aliases instead. Just adding them to your `~/.bash_profile` they will be available in every terminal session.
