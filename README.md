@@ -1,7 +1,7 @@
 
-It is quite common when working in iOS, tvOS or macOS to have installed the next Xcode beta in order to adapt your Applications as soon as possible. 
+It is quite common when working in iOS, tvOS or macOS projects to have installed the next Xcode beta in order to adapt your Applications as soon as possible. 
 
-Due to the fact that the UI of the stable and beta versions of Xcode does no change too much nowadays, and even the icon is exactly the same one, it is quite simple to mix them up.
+Due to the fact that the UI of the stable and beta versions of Xcode do no change too much nowadays, sharing even the same icon, it is quite simple to mix them up.
 
 With these tips you could palliate the problem:
 
