@@ -14,3 +14,4 @@ $ git clone https://github.com/dcordero/BetafyXcode.git
 $ cp BetafyXcode/XcodeBeta.icns /Applications/Xcode-beta.app/Contents/Resources/XcodeBeta.icns
 ```
 
+![](Preview.png)
