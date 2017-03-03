@@ -1,26 +1,16 @@
 
-If you are working these days in iOS development you may be using multiple versions of Xcode. (6.4, 7.0-GM, 7.1-beta,....). And since they all have the same icon and there wasn't big changes on the UI it is quite easy to mix them up.
+It is quite common when working in iOS, tvOS or macOS to have installed the next Xcode beta in order to adapt your Applications as soon as possible. 
+
+Due to the fact that the UI of the stable and beta versions of Xcode does no change too much nowadays, and even the icon is exactly the same one, it is quite simple to mix them up.
 
 With these tips you could palliate the problem:
 
-
 # Red icon for Xcode-beta
 
-Copy the file XCodeBeta.icns that you can find in this repo to /Applications/Xcode-beta.app/Contents/Resources/XcodeBeta.icns
+Copy the file XCodeBeta.icns, that you can find in the root path of this repo, to this path in your local machine /Applications/Xcode-beta.app/Contents/Resources/XcodeBeta.icns
 
 ```
 $ git clone https://github.com/dcordero/BetafyXcode.git
 $ cp BetafyXcode/XcodeBeta.icns /Applications/Xcode-beta.app/Contents/Resources/XcodeBeta.icns
-```
-
-![](Preview.png)
-
-# Aliases
-
-Since using the command `open` has a random behavior when there are multiple versions of Xcode installed in the system, you could use these two aliases instead. Just adding them to your `~/.bash_profile` they will be available in every terminal session.
-
-```
-alias xcode = 'open -a xcode'
-alias xcode-beta = 'open -a xcode-beta'
 ```
 
